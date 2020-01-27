@@ -14,10 +14,37 @@
 </head>
 
 <body style="background: #f9f9f9">
-<nav class="sidebar shadow">
-    <div class="logo-header">
-        <a href="index.php"><img src="images/brunei-logo.jpg" alt=""></a>
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+    <a class="navbar-brand" href="#"><a href="index.php"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+        <ul class="ml-auto navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+
     </div>
+</nav>
+<nav class="sidebar shadow-sm">
+    <div class="sidebar-brand p-4">
+        <img src="images/brunei-logo.jpg" alt="" height="70"></a>
+    </div>
+
     <ul class="list-unstyled my-4">
         <li class="sidebar-item"><a href="" class="sidebar-link"><span class="sidebar-icon"><i class="far fa-tachometer-alt"></i></span> Dashboard</a></li>
         <li class="sidebar-item"><a href="pages/settings.php" class="sidebar-link"><span class="sidebar-icon"><i class="far fa-cog"></i></span> Settings</a></li>
