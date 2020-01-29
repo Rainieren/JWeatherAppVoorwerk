@@ -21,18 +21,25 @@
                     <img src="images/brunei-logo.jpg" alt="">
                 </div>
                 <div class="card-title my-3">
-                    <h3 class="m-0">Login</h3>
+                    <h3 class="m-0">Sign up</h3>
+                    <p class="sub-text">Let's get started!</p>
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control">
+                    <input type="email" class="form-control" placeholder="E-mailadres">
                 </div>
                 <div class="form-group">
                     <label for="password">Password</label>
-                    <input type="password" class="form-control">
+                    <input type="password" class="form-control" placeholder="Password">
+                    <!-- eventuelte error message? -->
+                    <small class="form-text text-muted">Your password must be 6 characters long.</small>
                 </div>
-                <button type="submit" class="btn btn-primary btn-block">Login</button><br>
-                <small>Dont have an account yet? <a href="signup.php">Click here!</a></small>
+                <div class="form-group">
+                    <!-- <label for="passwordConfirm">Confirm password</label> -->
+                    <input type="passwordConfirm" class="form-control" placeholder="Confirm password">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Sign up</button><br>
+                <small>Already have an account? <a href="login.php">Click here!</a></small>
             </div>
         </div>
     </div>
